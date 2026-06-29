@@ -67,7 +67,10 @@ The ALU is implemented using a combinational `always @(*)` block and a `case` st
 ├── waveform.png
 └── README.md
 ```
+## 📂 Project Structure
 
+├── rtl/alu_16bit.v       → 16-bit ALU design (RTL)
+├── tb/alu_16bit_tb.v     → Testbench for simulation
 ---
 
 ## Simulation
